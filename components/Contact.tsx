@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a href="/newCV.pdf" download className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border border-teal-600 text-teal-400 font-medium rounded-full hover:bg-teal-600 hover:text-white transition-all text-lg">
+              <a href={`${import.meta.env.BASE_URL}newCV.pdf`} download className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border border-teal-600 text-teal-400 font-medium rounded-full hover:bg-teal-600 hover:text-white transition-all text-lg">
                   <Download className="w-5 h-5 mr-2" />
                   Download CV
               </a>

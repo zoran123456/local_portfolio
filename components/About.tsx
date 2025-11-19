@@ -16,7 +16,7 @@ const About: React.FC = () => {
              <div className="absolute inset-0 bg-teal-600 rounded-2xl rotate-6 opacity-10 group-hover:rotate-3 transition-transform duration-300"></div>
              <div className="absolute inset-0 bg-slate-900 rounded-2xl -rotate-2 opacity-5 group-hover:-rotate-1 transition-transform duration-300"></div>
              <img 
-               src="/profile.JPG" 
+               src={`${import.meta.env.BASE_URL}profile.JPG`} 
                alt="Zoran Bošjak" 
                className="relative rounded-2xl shadow-xl w-full object-cover aspect-[4/5] filter grayscale hover:grayscale-0 transition-all duration-500"
              />
